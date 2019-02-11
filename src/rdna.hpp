@@ -1,18 +1,17 @@
 #include <random>
+#include <vector>
 #include <iostream>
 using namespace std;
-int main()
- 
+int randDNA()
 {	
-	vector <char> mt;
-	vector <int> (eng1 = r d, eng2 = {'C', 'G', 'A', 'T'})
-	random_device r d;
-	mt19937 eng1 (rd());
-	mt19937 eng2 ('C', 'G', 'A', 'T');
+	vector eng2 = 'C', 'G', 'A', 'T'
+	random_device rd;
+	mt19937 eng1 rfd()); 
+	mt19937 eng2 (37);
 	int min = 6, max = 12;
 	uniform_int_distribution <int> DNA(min, max);
-	for (int i = 0, i <6, i++)
+	for (int i = 0, i < 6, i++)
 		cout << DNA (eng1) << " ";
-	for (auto i = 0, i <6, i++)
+	for (auto i = 0, i < 6, i++)
 		cout << DNA (eng2) << " ";
 }
